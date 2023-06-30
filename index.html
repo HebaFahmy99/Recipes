@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title> 
+    <link rel="stylesheet" href="CSS/bootstrap.min.css"> 
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #F1F9FC !important;">
+  <div class="container">
+    <a class="navbar-brand py-2 fs-4">Taste</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link">mushrooms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">potato</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">red pepper</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">garlic</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">cinnamon</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">banana</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">pizza</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">kebab</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+<header class="d-flex justify-content-center align-items-center">
+    <h1 class="text-center py-4 ">Hungry? Get Started</h1>
+</header>
+<section>  
+    <div class="container py-4">
+        <h1 class="text-center my-4">Reciepes</h1>  
+        <div class="row g-3 " id="ReciepesSection">
+
+        </div>
+    </div>
+</section>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body text-center" id="RecipeInfo">
+ 
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <script src="JS/bootstrap.bundle.min.js"></script> 
+    <script src="JS/index.js"></script>
+</body>
+</html>

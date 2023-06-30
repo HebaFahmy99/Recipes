@@ -1,0 +1,15 @@
+header{ 
+    background-image: url(../images/C_HungryGetStarted.jpg); 
+    background-position: center center; 
+    background-size: cover; 
+    height: 50vh;
+}
+ 
+a{ 
+    text-decoration: none;   
+    color: white;
+} 
+.nav-item{ 
+    font-weight: 500; 
+    cursor: pointer;
+}
